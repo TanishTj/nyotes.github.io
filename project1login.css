@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+#navi{
+  background:linear-gradient(to right,red,blue,green,yellow);
+}
+body{
+  background-image: url("back4.jpg");
+}
+main {
+  font-family: "Quintessential", cursive;
+  margin: 40px auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid lightcyan;
+  padding: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 20px;
+  }
+
+.c1 {
+  padding: 15px;
+}
+
+.c2 {
+  background-color: rgba(207, 204, 224, 0.753);
+}
+
+h1 {
+  text-align: left;
+  padding: 5px 0px 0px 0px;
+}
+
+.hk {
+  text-align: left;
+  background-color: rgb(127, 197, 80) !important;
+  padding: 15px 15px 0px 25px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  text-align: center;
+  border: 2px solid lightgreen;
+  border-radius: 4px;
+  height: 30px;
+}
+
+hr {
+  width: 100%;
+}
+
+#subm {
+  text-align: center;
+  background-color: rgb(149, 199, 117);
+  border: 2px solid lightgreen;
+  border-radius: 100%;
+  padding: 10px;
+  color: white;
+  font-family: "Quintessential", cursive;
+  font-size: medium;
+  width: 100px;
+}
+
+#submission {
+  text-align: center;
+}
+
+#subm:hover {
+  cursor: grab;
+  background: linear-gradient(to right,red,blue);
+}
+
+input[type="submit"] {
+  margin: 5px;
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+}
+.hk:hover{
+  background: linear-gradient(to right,red,blue);
+
+}
+#logo{
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+#logo:hover{
+transition: all 1s ease-out 0.2s;
+transform: scale(1.5);
+}

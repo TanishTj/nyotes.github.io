@@ -1,0 +1,42 @@
+#navi{
+    background:linear-gradient(to right,red,blue,green,yellow);
+}
+#addbtn{
+    margin-left: 46%;
+    margin-top: 20px; 
+}
+body{
+    
+    font-family: 'Baloo Bhai 2';
+    background-image:url("back5.jpg");
+    }
+#checky{
+    margin-top: 10px;
+}
+#checky input:hover,#checky:hover{
+    cursor: pointer;
+}
+#ser1,#ser2,#userii,#logout{
+    color: white;
+  background-color: #2f353a;
+    
+}
+#logout{
+    margin-left: 20px;
+}
+#logo{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+#logo:hover{
+  transition: all 1s ease-out 0.2s;
+  transform: scale(1.5);
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+}
